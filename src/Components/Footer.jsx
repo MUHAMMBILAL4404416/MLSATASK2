@@ -103,12 +103,8 @@ const Footer = (props) => {
             <img src={twitterIcon} alt="Twitter" className="socialIcon" />
           </a>
         )}
-        {youTube && (
-          <a
-            href={`https://www.youtube.com/c/${youTube}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+     {youTube && (
+          <a href={`https://youtu.be/${youTube}`} target="_blank" rel="noopener noreferrer">
             <img src={youTubeIcon} alt="YouTube" className="socialIcon" />
           </a>
         )}
